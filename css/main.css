@@ -10,6 +10,10 @@ a{
     text-decoration: none;
     color: rgb(0, 0, 0) !important;
 }
+.container2{
+    width: 65%;
+    margin: auto;
+}
 /* header */
 .header__sticky{
     position: sticky;
@@ -30,6 +34,7 @@ a{
     transition: all .8s;
     box-shadow: 0 0 50px 0 rgb(0 0 0 / 10%);
     background: white;
+    padding: 0.5rem 0;
 }
 .nav-item{
     line-height: 3rem;
@@ -49,11 +54,10 @@ a{
 }
 /* content carousel Css */
 .sama__banner{
-    background: url(../img/pic2.png) center center;
+    background: url(../img/pic2.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
-    height: 70rem;
+    background-size: cover;
 }
 .banner__content, .banner__img__details{
     height: 45rem;
@@ -73,8 +77,36 @@ a{
     animation: mymove 5s infinite;
     transition: all 1s;
 }
+/* Service-CSS */
+.service__content{
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 12rem;
+}
+.service__content__title{
+    text-align: center;
+}
 
-
+.servicer__card{
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
+    padding: 30px 2px;
+}
+.service__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__picture img{
+    width: 215px;
+}
+.service__content__text{
+    text-align: center;
+    padding: 15px 30px;
+}
 
 
 
