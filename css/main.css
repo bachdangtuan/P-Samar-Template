@@ -1,19 +1,56 @@
+/* GLOBAL CSS */
+/* CONFIG STANDAR*/
+/* SIZE: REM, PX */
+/* COLOR: rgb,rbga,hex */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 html, body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-size: 16px;
+}
+ol, ul{
+    padding: 0;
 }
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0) !important;
+    color: white;
+} 
+.banner__content__title ul li{
+    list-style: none;
 }
 .container2{
-    width: 65%;
+    width: 62%;
     margin: auto;
 }
+h6{
+    color: #f55f8d;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4rem;
+}
+.liner-gradient{
+    background-image: linear-gradient(to right, #f5638a, #f7a65b) !important;
+}
+
+
+/* END GLOBAL CSS SETTING */
+/* END GLOBAL CSS SETTING */
+/* END GLOBAL CSS SETTING */
+/* END GLOBAL CSS SETTING */
+/* END GLOBAL CSS SETTING */
+
 /* header */
 .header__sticky{
     position: sticky;
@@ -22,7 +59,7 @@ a{
     top: 0;
     width: 100%;
     color: black;
-    transition: all 1s;
+    transition: all .8s;
     /* background:transparent; */
     z-index: 10;
 
@@ -44,6 +81,9 @@ a{
 .navbar-nav{
     justify-content: flex-end;
 }
+.navbar-nav li a{
+    color: black;
+}
 .btn-primary{
     background-color: #f55f8d;
     border: #f55f8d;
@@ -53,16 +93,18 @@ a{
     vertical-align: middle;
 }
 /* content carousel Css */
+/* content carousel Css */
+/* content carousel Css */
 .sama__banner{
     background: url(../img/pic2.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: top center;
+    background-size: 100%;
 }
 .banner__content, .banner__img__details{
-    height: 45rem;
+    height: 53rem;
     justify-content: center;
-    align-items:end;
+    align-items:center;
     display: flex;
 }
 .banner__content__title > h1{
@@ -76,24 +118,38 @@ a{
 .animation__banner{
     animation: mymove 5s infinite;
     transition: all 1s;
+    width: 42%;
+}
+/* /////////BEFORE TICK V FOR CONTENT////////// */
+.fa-check{
+    content: "\f00c";
+    font-size: 18px;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #000;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    border-radius: 2.5rem;
 }
 /* Service-CSS */
 .service__content{
-    background: url(../img/bg2.png);
-    background-repeat: no-repeat;
-    background-position: top;
+    background: url(../img/bg2.png) 0rem -3rem;
     background-size: cover;
-    padding-top: 12rem;
+    /* background-size: 100%; */
 }
 .service__content__title{
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .servicer__card{
     border-radius: 0.5rem;
     background: #fff;
-    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 60px 0 rgb(0,0,0,.3);
     padding: 30px 2px;
+    width: 370px;
+    height: 420px;
 }
 .service__picture{
     display: flex;
@@ -125,10 +181,33 @@ a{
 
 
 
-
-
+/* Back to top CSS */
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+}
+  
+.cd-top--fade-out {
+    opacity: .5;
+}
+.backtotop{
+    background: #f55f8d;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    line-height: 3rem;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    transition: all 2s;
+    color: white;
+}
 
 
 @keyframes mymove {
-    40% {transform: rotate(5deg);}
+    40% {transform: rotate(-3deg);}
   }
