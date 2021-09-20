@@ -41,7 +41,7 @@ h2{
     line-height: 4rem;
 }
 .liner-gradient{
-    background-image: linear-gradient(to right, #f5638a, #f7a65b) !important;
+    background: linear-gradient(90deg, var(--c1, #f55f8d), var(--c2, #f7a65b) 51%, var(--c1, #f7a65b)) var(--x, 0)/ 200%;
 }
 
 
@@ -61,7 +61,7 @@ h2{
     color: black;
     transition: all .8s;
     /* background:transparent; */
-    z-index: 10;
+    z-index: 100;
 
 }
 .samafixed {
@@ -85,12 +85,21 @@ h2{
     color: black;
 }
 .btn-primary{
-    background-color: #f55f8d;
     border: #f55f8d;
     font-weight: 500;
     padding:20px 35px;
     border-radius: 50px;
     vertical-align: middle;
+    transition: 0.5s;
+}
+.liner-gradient:hover{
+    background: linear-gradient(90deg, var(--c1, #f55f8d), var(--c2, #f7a65b) 51%, var(--c1, #f7a65b)) var(--x, 0)/ 200%;
+}
+.btn:hover { --x: 100%; }
+
+.btn-1 {
+  --c1: #f55f8d;
+  --c2: #f7a65b;
 }
 /* content carousel Css */
 /* content carousel Css */
@@ -120,13 +129,11 @@ h2{
     transition: all 1s;
     width: 42%;
 }
-/* /////////BEFORE TICK V FOR CONTENT////////// */
 .fa-check{
     content: "\f00c";
     font-size: 18px;
     width: 2.5rem;
     height: 2.5rem;
-    background: #000;
     text-align: center;
     line-height: 2.5rem;
     color: #fff;
@@ -137,6 +144,7 @@ h2{
     background: url(../img/bg2.png) 0rem -3rem;
     background-size: cover;
     /* background-size: 100%; */
+
 }
 .service__content__title{
     text-align: center;
@@ -150,6 +158,11 @@ h2{
     padding: 30px 2px;
     width: 370px;
     height: 420px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.servicer__card:hover{
+    transform: translate(0rem , -1.5rem);
 }
 .service__picture{
     display: flex;
@@ -163,8 +176,36 @@ h2{
     text-align: center;
     padding: 15px 30px;
 }
-
-
+/* Section Class */
+.about__banner{
+    background: url(../img/bg15.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    height: 45rem;
+    
+}
+.about__banner__img{
+    float: right;
+    width: 50vw;
+    position: relative;
+}
+.about__banner__img img{
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+    z-index: 10;
+}
+.about__banner__img__bg{
+    height: 37rem;
+    background: #fef2f6;;
+    position: absolute;
+    width: 50vw;
+    z-index: 1;
+    left: -2.5rem;
+    transform: rotate(9deg);
+    border-radius: 0 100px 100px 0;
+}
 
 
 
@@ -188,7 +229,7 @@ h2{
 }
   
 .cd-top--fade-out {
-    opacity: .5;
+    opacity: 1;
 }
 .backtotop{
     background: #f55f8d;
@@ -201,8 +242,6 @@ h2{
     right: 20px;
     bottom: 20px;
     line-height: 3rem;
-    /* opacity: 0; */
-    /* visibility: hidden; */
     transition: all 2s;
     color: white;
 }
