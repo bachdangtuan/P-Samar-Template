@@ -4,188 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sama-Project</title>
-    <!-- FONTASOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	  <!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <!-- BACK TO TOP -->
-    <link rel="stylesheet" href="./css/backtotop.css">
-    <!-- BOOTSTRAP 4-6 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- LOCAL CSS -->
-    <link rel="stylesheet" href="./css/main.css">
-    <!-- LOCAL JS -->
-    <script defer src="./javascript/java.js"></script>
-    <script defer src="./javascript/backtotop/main.js"></script>
-    <script defer src="./javascript/backtotop/util.js"></script>
+    <title>Samar-Project</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Animate Style -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <main style="width: 1903px;">
-    <!-- header - navbar -->
-    <div style="visibility: hidden; height: 1pt;">Scroll</div>
-    <header class="header header__sticky con">
-        <div class="container2">
-            <nav class="navbar navbar-expand-lg header__navbar">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                      <img src="./img/logo-2.png" alt="">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-start" id="offcanvasNavbar">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    <!-- HEADER -->
+    <header class="header__samar">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4" id="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo-2.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="#navbar">
+                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active pr-lg-3">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pr-lg-3">
+                          <a class="nav-link" href="#">Page</a>
+                        </li>
+                        <li class="nav-item pr-lg-3">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item pr-lg-3">
+                            <a class="nav-link" href="#">Post layout</a>
+                        </li>
+                        <li class="nav-item pr-lg-3">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item pr-lg-3">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                      </ul>
+                        <button class="btn btn__samar" type="submit">GET A QUOTE</button>
                     </div>
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Page</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Post Layout</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                      <a class="btn btn-primary d-md-block d-none liner-gradient btn-1
-                      " href="https://www.youtube.com/watch?v=ybFVSDUZhaQ">GET A QUOTE</a>
-                    </ul>
-                  </div>
                 </div>
-             </nav>
-        </div>
-    </header>
-    <!-- content carousel -->
-    <section class="sama__banner">
-      <div class="container2">
-        <div class="row m-auto">
-          <div class="col-lg-8 banner__content">
-              <div class="banner__content__title">              
-                <h6>We are The Best</h6>
-                <h1>Freelance Product Designer Running</h1>
-                <p>We develop the relationships that underpin the next phase in your <br>
-                  organisation’s growth.</p>
-                  <ul>
-                    <li class="pb-3"><i class="fa fa-check liner-gradient"></i>
-                    <span class="ps-2">Master's degree in designing</span></li>
-                    <li class="pb-3"><i class="fa fa-check liner-gradient"></i>
-                    <span class="ps-2">Outstanding mobile design</span></li>
-                  </ul>
-                  <a name="" id="" class="btn btn-primary liner-gradient btn-1" href="#" role="button">GET STARTED</a>
-              </div>
-          </div>
-          <div class="col-lg-4 banner__img">
-            <div class="banner__img__details">
-              <img src="./img/pic3_1.png" alt=""/>
-              <img src="./img/pic1.png" alt="" class="animation__banner">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services -->
-    <section class="service__content">
-      <div class="container2 pt-5">
-        <div class="service__content__title">
-          <h6>What We Do Best</h6>
-          <h2>Our Digital Services</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <div class="servicer__card">
-                <div class="service__picture">
-                    <img src="./img/pic1_3.jpg" alt="">
-                </div>
-                <div class="service__content__text">
-                    <h4>Web Development</h4>
-                    <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
-                 </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-12 ">
-            <div class="servicer__card">
-                <div class="service__picture">
-                    <img src="./img/pic2_2.jpg" alt="">
-                </div>
-                <div class="service__content__text">
-                    <h4>Strategy & Research</h4>
-                    <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
-                 </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="servicer__card">
-                <div class="service__picture">
-                    <img src="./img/pic3_2.jpg" alt="">
-                </div>
-                <div class="service__content__text">
-                    <h4>Growth Tracking</h4>
-                    <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
-                 </div>
-            </div>
-          </div>
-         </div>
-        </div>
-      </div>
-    </section>
     
-    <!-- About -->
-    <section class="about__banner">
-        <div class="row container2 pt-5">
-            <div class="col-lg-6">
-              <div class="about__banner__img">
-                <div class="about__banner__img__bg"></div>
-                <img src="./img/pic1.jpg" alt="">
-              </div>
+              </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section class="carousel__samar ">
+        <div class="row container m-auto carousel__samar__intro align-items-center">
+            <div class="col-lg-7">
+                <div class="carousel__samar__content">
+                    <h6 class="sub-title text-primary animate__animated animate__fadeInUp animate__delay-1s">We are The Best</h6>
+                    <h1 class="m-b20 animate__animated animate__fadeInUp animate__delay-2s">Freelance Product Designer Running</h1>
+                    <p 	class="m-b15 animate__animated animate__fadeInUp animate__delay-3s">We develop the relationships that underpin the next phase in your<br/> organisation’s growth.</p>
+                    <ul class="fadeInUp list-check-2 m-b20 animate__animated animate__fadeInUp animate__delay-4s">
+                        <li>Master's degree in designing</li>
+                        <li>Outstanding mobile design</li>
+                    </ul>
+                    <a href="about-us-1.html" class="btn btn__samar animate__animated animate__fadeInUp animate__delay-5s">GET STARTED</a>
+                </div>
             </div>
-            <div class="col-lg-6 ">
-              <h6>What We Do Best</h6>
-              <h2>Build Your Business Website Better </h2>
-              <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
-              <ul>
-                <li>We support programs that create advancement opportunities for people.</li>
-                <li>Get a view of events and trends. Be updated on our recent news.</li>
-                <li>Finally, it all comes down to people. Creating a winning team.</li>
-                <li>Get a view of events and trends. Be updated on our recent news.</li>
-              </ul>
-              <a name="" id="" class="btn btn-primary liner-gradient btn-1" href="#" role="button">LEARN MORE</a>
-           </div>
+            <div class="col-lg-5">
+                <div class="carousel__samar__img position-relative">
+                    <img src="./img/pic3_1.png" alt="" class="animate__animated animate__fadeInUp animate__delay-4s">
+                    <div class="moving d-flex justify-content-lg-center align-items-center position-absolute ">
+                        <img src="./img/pic1.png" alt="" class="animate__animated animate__zoomIn animate__delay-5s">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Features -->
 
-    <!-- Portfolio -->
 
-    <!-- Plan -->
 
-    <!-- Testimonial -->
 
-    <!-- Our Blog -->
 
-    <!-- footer -->
-    <footer></footer>
-    <a href="#" class="backtotop cd-top--is-visible cd-top--fade-out">
-      <i class="fa fa-arrow-up"></i>
-    </a>
-    <!-- back to top -->
-    <!-- <a href="#" class="backtotop cd-top text-replace js-cd-top">
-    </a> -->
-  </main>
-    <!-- CDN JAVASCRIPT  -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- JQueery -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> <!-- BS4-6 -->
-    <!-- Local Javascript -->
+
+
+
+
+
+
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="./javascript/main.js"></script>
+    
+
 </body>
 </html>

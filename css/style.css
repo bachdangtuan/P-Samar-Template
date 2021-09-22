@@ -1,0 +1,110 @@
+/* CSS Global */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Button Samar LinerGradient */
+.btn__samar{background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+.btn__samar {
+   margin: 10px;
+   width: 145px;
+   padding: 15px 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30px;
+   display: block;
+ }
+
+ .btn__samar:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+/* HEADER */
+
+#navbar {
+    overflow: hidden;
+    transition: all 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    top: 0; /* At the top */
+    z-index: 9999;
+  }
+  
+/* CAROUSEL */
+.carousel__samar{
+    background: url(../img/pic2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+.carousel__samar__intro{
+    z-index: 99;
+    position: relative;
+    padding-top: 180px;
+}
+.carousel__samar__img{
+    margin-left: 50px;
+    width: 570px;
+}
+.moving{
+    animation: move2 5s infinite;
+    top: 0;
+    right: 0;
+    left: 20px;
+}
+.moving img{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Chuyển Động Ảnh nền */
+@-webkit-keyframes move2 {
+    0% {
+      -webkit-transform: rotate(1deg) translate(2px, 2px);
+      transform: rotate(1deg) translate(2px, 2px); }
+    50% {
+      -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+      transform: rotate(-1deg) translate(-2px, -2px); }
+    100% {
+      -webkit-transform: rotate(1deg) translate(2px, 2px);
+      transform: rotate(1deg) translate(2px, 2px); } }
