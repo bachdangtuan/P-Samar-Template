@@ -13,8 +13,12 @@ h6{
     font-size: 22px;
     color: #e83e8c;
 }
-h1 {
+h2, h1{
     font-size: 60px;
+    font-weight: 600;
+}
+h4{
+    font-size: 26px;
     font-weight: 600;
 }
 ul{
@@ -91,7 +95,39 @@ ul li {
     right: 0;
     left: 20px;
 }
-.moving img{
+/* SERVICE */
+.service__samar{
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    padding-top: 115px;
+}
+.service__samar__content{
+    margin-bottom: 40px;
+}
+.servicer__card{
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 30%);
+    transition: all 1s;
+    cursor: pointer;
+}
+.servicer__card:hover{
+    transform: translate(0rem , -1.5rem);
+}
+.service__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.service__picture img{
+    width: 215px;
+}
+.service__content__text{
+    padding: 15px 15px;
 }
 
 
