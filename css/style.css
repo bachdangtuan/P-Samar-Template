@@ -8,8 +8,36 @@ body,html{
     padding: 0;
     box-sizing: border-box;
 }
+h6{
+    font-weight: 600;
+    font-size: 22px;
+    color: #e83e8c;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+ul{
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.color__gradient{
+    background: linear-gradient(to right, #DD5E89 0%, #F7BB97  100%)
+}
+.check__items{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 10px;
+}
 /* Button Samar LinerGradient */
-.btn__samar{background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+.btn__samar{
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)
+}
 .btn__samar {
    margin: 10px;
    width: 145px;
@@ -17,7 +45,7 @@ body,html{
    text-align: center;
    text-transform: uppercase;
    transition: 0.5s;
-   background-size: 200% auto;
+   background-size: 200% auto; 
    color: white;            
    box-shadow: 0 0 20px #eee;
    border-radius: 30px;
@@ -64,6 +92,8 @@ body,html{
 }
 .moving img{
 }
+
+
 
 
 
