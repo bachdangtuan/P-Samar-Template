@@ -87,7 +87,7 @@ ul li {
 }
 .carousel__samar__img{
     margin-left: 50px;
-    width: 570px;
+    width: 500px;
 }
 .moving{
     animation: move2 5s infinite;
