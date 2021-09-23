@@ -1,6 +1,8 @@
 /* CSS Global */
 *{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 body,html{
@@ -21,6 +23,10 @@ h4{
     font-size: 26px;
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 ul{
     padding: 0;
 }
@@ -38,6 +44,15 @@ ul li {
     text-align: center;
     margin: 10px;
     color: white;
+}
+.check__items__about{
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #e83e8c;
+    border: 2px solid;
 }
 /* Button Samar LinerGradient */
 .btn__samar{
@@ -63,15 +78,19 @@ ul li {
    text-decoration: none;
  }
 
+ /* //////////////////////////////END GLOBAL CSS////////////////////////////////////////// */
 /* HEADER */
-
+.header__samar ul li a{
+    color: black;
+    font-weight: 600;
+}
 #navbar {
     overflow: hidden;
     transition: all 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     top: 0; /* At the top */
     z-index: 9999;
-  }
+}
   
 /* CAROUSEL */
 .carousel__samar{
@@ -86,8 +105,7 @@ ul li {
     padding-top: 180px;
 }
 .carousel__samar__img{
-    margin-left: 50px;
-    width: 500px;
+    width: 570px;
 }
 .moving{
     animation: move2 5s infinite;
@@ -129,7 +147,32 @@ ul li {
 .service__content__text{
     padding: 15px 15px;
 }
-
+/* ABOUT OF */
+.about__samar{
+    padding-top: 115px;
+    padding-bottom: 85px;
+    background: url(../img/bg15.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.about__samar__img__details{
+    float: right;
+    width: 50vw;
+}
+.about__samar__img__details__bg{
+    height: 100%;
+    background: #fef2f6;
+    position: absolute;
+    top: 0;
+    width: 50vw;
+    z-index: -1;
+    right: 40px;
+    transform: rotate(8deg);
+    border-radius: 0 100px 100px 0;
+}
+.about__samar__img__details img{
+    border-radius: 0 100px 100px 0;
+}
 
 
 
