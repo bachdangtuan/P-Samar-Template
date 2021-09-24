@@ -219,7 +219,7 @@ ul li {
 .features__samar__infor::after{
     content: "";
     position: absolute;
-    background: red;
+    background: rgba(240, 113, 183,0.5);
     border-radius: 10px;
     width: 100%;
     height: 150px;
