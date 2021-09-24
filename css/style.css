@@ -16,16 +16,25 @@ h6{
     color: #e83e8c;
 }
 h2, h1{
-    font-size: 60px;
+    font-size: 59px;
     font-weight: 800;
 }
 h4{
     font-size: 26px;
     font-weight: 800;
 }
+.font-title{
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: black;
+}
+a:hover{
+    text-decoration: none;
 }
 ul{
     padding: 0;
@@ -62,6 +71,9 @@ ul li {
 .padding__samar{
     padding-top: 115px;
     padding-bottom: 0;
+}
+.padding__row{
+    padding-bottom: 30px;
 }
 
 /* Button Samar LinerGradient */
@@ -214,7 +226,7 @@ ul li {
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
-    transition: all 1s;
+    transition: all 0.7s;
 }
 .features__samar__infor::after{
     content: "";
@@ -230,12 +242,17 @@ ul li {
 }
 .features__samar__infor:hover{
     background: linear-gradient(to right, #f55f8d 0%, #f8ae56  100%);
+    color: white;
+}
+.features__samar__infor:hover >i{
+    color: white;
 }
 
 
 .features__samar__infor i{
     color: #f55f8d ;
     font-size: 50px;
+    width: 40%;
 }
 .features__samar__img{
     padding-top: 70px;
@@ -245,16 +262,88 @@ ul li {
     width: 660px;
     height: 648px;
 }
+/* Portfolio */
+.Portfolio__samar{
+    background-image: url(../img/bg17.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.portfolio__samar__gallery img{
+    border-radius: 20px;
+}
+.portfolio__content{
+    margin-bottom: 40px;
+}
+.portfolio__samar__item{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.portfolio__samar__skew{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: -75%;
+    height: 100%;
+    /* background: red; */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    transform: skewX(-17deg);
+    transition: all .5s;
+    overflow: hidden;
+}
+.portfolio__samar__overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all .5s;
+    opacity: 0;
+    position: absolute;
+    border-radius: 20px;
 
-
-
-
-
-
-
-
-
-
+}
+.overlay__icon{
+    background: linear-gradient(to right, #f55f8d 0%, #f8ae56  100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.overlay__text{
+    text-align: left;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    /* transform: translateY(100px); */
+    color: white;
+    padding: 20px;
+    transition: all .8s;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* HOVER NHÓM  */
+.portfolio__samar__overlay:hover{
+    opacity: 1;
+}
+.portfolio__samar__overlay:hover > .overlay__icon{
+    transform: translateY(20px) translateX(-20px);
+    opacity: 1;
+}
+.portfolio__samar__overlay:hover > .overlay__text{
+    height: 110px;
+}
+.portfolio__samar__item:hover > .portfolio__samar__skew{
+    left: 100%;
+    opacity: 1;
+    position: absolute;
+}
 
 
 
