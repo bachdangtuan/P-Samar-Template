@@ -11,13 +11,13 @@ body,html{
     box-sizing: border-box;
 }
 h6{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 22px;
     color: #e83e8c;
 }
 h2, h1{
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 800;
 }
 h4{
     font-size: 26px;
@@ -57,7 +57,9 @@ ul li {
 .chayso__samar__counter{
     color: #e83e8c;
     font-size: 65px;
+    font-weight: 800;
 }
+
 /* Button Samar LinerGradient */
 .btn__samar{
     background: linear-gradient(to right, #f55f8d 0%, #f8ae56  51%, #f55f8d  100%)
