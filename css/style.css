@@ -348,7 +348,29 @@ ul li {
     opacity: 1;
     position: absolute;
 }
-
+/* PLAN */
+.plan__samar{
+    background-image: url(../img/bg16.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.plan__samar__tabs{
+    width: 225px;
+    align-items: center;
+    height: 50px;
+    border-radius: 8px;
+}
+.plan__samar ul{
+    padding: 5px;
+}
+.plan__samar ul li a{
+    color: white;
+}
+.nav-pills .nav-link.active{
+    color: #000;
+    background-color: #ffffff;
+}
 
 
 
