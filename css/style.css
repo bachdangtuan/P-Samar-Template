@@ -470,4 +470,10 @@ ul li {
     100% {
       transform: rotate(5deg) 
      } 
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1440px) {
+    .about__samar__img__details{
+        width: 68vw;
     }
+}
