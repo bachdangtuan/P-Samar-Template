@@ -17,7 +17,7 @@ function scrollFunction() {
 
 //Light Gallery
 
-lightGallery(document.getElementById("animated-thumbnails"), {
+lightGallery(document.getElementById("pic1_2-thumbnails"), {
   selector: ".lightimg",
   plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgShare],
   alignThumbnails: "left",
@@ -28,3 +28,15 @@ lightGallery(document.getElementById("animated-thumbnails"), {
   actualSize: false,
   exThumbImage: "data-exthumbimage"
 });
+// lightGallery(document.getElementById("pic2_1-thumbnails"), {
+//   selector: ".lightimg",
+//   plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgShare],
+//   alignThumbnails: "left",
+//   loop: true,
+//   allowMediaOverlap: true,
+//   toggleThumb: true,
+//   showZoomInOutIcons: true,
+//   actualSize: false,
+//   exThumbImage: "data-exthumbimage"
+// });
+
