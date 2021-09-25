@@ -127,7 +127,7 @@ ul li {
     transition: all 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     top: 0; /* At the top */
-    z-index: 9999;
+    z-index: 9;
 }
   
 /* CAROUSEL */
@@ -329,6 +329,7 @@ ul li {
     right: 0;
     color: white;
     width: 50px;
+    height: 50px;
     line-height: 50px;
     border-radius: 10px;
     transition: all .5s;
@@ -428,7 +429,6 @@ ul li {
     background-position: top center;
     background-repeat: no-repeat;
 }
-
 
 
 

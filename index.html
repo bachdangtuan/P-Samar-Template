@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samar-Project</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- Font GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +19,8 @@
     <!-- Animate Style -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+    <!-- Light gallerry -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -276,7 +275,16 @@
                         <img src="./img/pic1_2.jpg" alt="" class="img-fluid">
                         <div class="portfolio__samar__skew"></div>
                         <div class="portfolio__samar__overlay">
-                            <a href="#" class="overlay__icon"><i class="fa fa-plus"></i></a>
+                            <div id="animated-thumbnails" class="overlay__icon">
+                                <a data-exthumbimage="./img/pic1_2.jpg" class="lightimg overlay__icon " data-src="./img/pic1_2.jpg" data-sub-html="Design">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                <a data-exthumbimage="./img/pic2_1.jpg" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic3_1.jpg" class="lightimg" data-src="./img/pic3_1.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic4.jpg" class="lightimg" data-src="./img/pic4.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic5.jpg" class="lightimg" data-src="./img/pic5.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic6.jpg" class="lightimg" data-src="./img/pic6.jpg" data-sub-html="Design"></a>
+                            </div>
                             <div class="overlay__text">
                                 <a href="#" class="font-title">Software Landing</a>
                                 <p>By Jhone Doe</p>
@@ -289,9 +297,18 @@
                         <img src="./img/pic2_1.jpg" alt="" class="img-fluid">
                         <div class="portfolio__samar__skew"></div>
                         <div class="portfolio__samar__overlay">
-                            <a href="#" class="overlay__icon"><i class="fa fa-plus"></i></a>
+                            <div id="animated-thumbnails" class="overlay__icon">
+                                <a data-exthumbimage="./img/pic2_1.jpg" class="lightimg overlay__icon" data-src="./img/pic2_1.jpg" data-sub-html="Design">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                <a data-exthumbimage="./img/pic2_1.jpg" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic3_1.jpg" class="lightimg" data-src="./img/pic3_1.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic4.jpg" class="lightimg" data-src="./img/pic4.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic5.jpg" class="lightimg" data-src="./img/pic5.jpg" data-sub-html="Design"></a>
+                                <a data-exthumbimage="./img/pic6.jpg" class="lightimg" data-src="./img/pic6.jpg" data-sub-html="Design"></a>
+                            </div>
                             <div class="overlay__text">
-                                    <a href="#" class="font-title">Software Landing</a>
+                                <a href="#" class="font-title">Software Landing</a>
                                 <p>By Jhone Doe</p>
                             </div>
                         </div>
@@ -511,6 +528,16 @@
             <h6>Our Blog</h6>
             <h2>Latest News & Blog</h2>
         </div>
+
+
+        <!-- <div id="animated-thumbnails">
+            <a data-exthumbimage="./img/pic2_1.jpg" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design">
+              <i class="fa fa-image"></i>
+            </a>
+            <a data-exthumbimage="./img/pic2_1.jpg" data-lg-size="1500-1500" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design">
+              <i class="fa fa-image"></i>
+            </a>
+        </div> -->
     </section>
 
 
@@ -519,9 +546,20 @@
 
 
 
-    
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<!-- JQUERY 3.6 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/zoom/lg-zoom.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/fullscreen/lg-fullscreen.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/autoplay/lg-autoplay.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/share/lg-share.min.js"></script>
+
+
 <script src="./javascript/main.js"></script>
     
 </body>

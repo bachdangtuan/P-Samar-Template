@@ -1,4 +1,4 @@
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+//Thay đổi padding trên thanh navbar
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -14,3 +14,17 @@ function scrollFunction() {
     // document.getElementById("logo").style.fontSize = "35px";
   }
 }
+
+//Light Gallery
+
+lightGallery(document.getElementById("animated-thumbnails"), {
+  selector: ".lightimg",
+  plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgShare],
+  alignThumbnails: "left",
+  loop: true,
+  allowMediaOverlap: true,
+  toggleThumb: true,
+  showZoomInOutIcons: true,
+  actualSize: false,
+  exThumbImage: "data-exthumbimage"
+});
