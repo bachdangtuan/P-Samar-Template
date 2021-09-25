@@ -226,7 +226,7 @@ ul li {
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
-    transition: all 0.7s;
+    transition: all 1s;
 }
 .features__samar__infor::after{
     content: "";
