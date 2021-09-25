@@ -438,7 +438,7 @@ ul li {
 .blogcard__items{
     padding: 0;
     border-radius: 8px;
-    background: #f8e9ed;
+    background: rgb(248, 233, 237);
 }
 .blogcard__items img{
     border-radius: 8px;
@@ -465,11 +465,44 @@ ul li {
     left: 3%;
     position: absolute;
 }
-
-
-
-
-
+/* CLIENT */
+.blog__samar{
+    background-image: url(../img/bg16.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.client__logo img{
+    margin: auto;
+}
+.client__logo{
+    padding: 25px 10px;
+    background: white;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 100px;
+    border-radius: 10px;
+    transition: all .5s;
+    position: relative;
+}
+.client__logo:hover{
+    background: linear-gradient(to right, #f55f8d 0%, #f8ae56  100%);
+    box-shadow: 0px 0px 50px 10px rgba(241, 81, 228,0.78);
+}
+.client__logo:hover > .logo1{
+    display: none;
+}
+.client__logo >.logo2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.client__logo:hover > .logo2{
+    display: block;
+    transition: all 1.5s;
+}
 
 
 
