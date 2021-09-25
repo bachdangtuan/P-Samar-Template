@@ -347,6 +347,13 @@ ul li {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+/* LIGHT GALLERY */
+.lg-backdrop.in{
+    opacity: .9;
+}
+.lg-outer.lg-components-open:not(.lg-zoomed) .lg-components {
+    opacity: .7;
+}
 /* HOVER NHÓM  */
 .portfolio__samar__overlay:hover{
     opacity: 1;
