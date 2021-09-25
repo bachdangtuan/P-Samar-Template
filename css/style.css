@@ -21,7 +21,7 @@ h3 {
     font-weight: 800;
 }
 h4{
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 800;
 }
 h5 {
@@ -91,7 +91,6 @@ ul li {
 .padding__row{
     padding-bottom: 30px;
 }
-
 /* Button Samar LinerGradient */
 .btn__samar{
     background: linear-gradient(to right, #f55f8d 0%, #f8ae56  51%, #f55f8d  100%)
@@ -436,8 +435,36 @@ ul li {
     background-position: top center;
     background-repeat: no-repeat;
 }
-
-
+.blogcard__items{
+    padding: 0;
+    border-radius: 8px;
+    background: #f8e9ed;
+}
+.blogcard__items img{
+    border-radius: 8px;
+}
+.blogcard__items .card-body {
+    padding: 10px;
+}
+.blogcard__items .card-body h4 a{
+    font-size: 23px;
+    font-weight: 800;
+}
+.blog__details ul{
+    flex-wrap: wrap;
+}
+.post__date{
+    background-size: 200%;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #fff !important;
+    font-weight: 400;
+    line-height: 1;
+    z-index: 1;
+    top: 39%;
+    left: 3%;
+    position: absolute;
+}
 
 
 

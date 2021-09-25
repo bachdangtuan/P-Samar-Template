@@ -7,7 +7,6 @@
     <title>Samar-Project</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
     <!-- Font GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +20,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Light gallerry -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
+    <!-- slick carousel -->
+   <!-- SLICK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -534,16 +541,139 @@
             <h6>Our Blog</h6>
             <h2>Latest News & Blog</h2>
         </div>
-
-
-        <!-- <div id="animated-thumbnails">
-            <a data-exthumbimage="./img/pic2_1.jpg" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design">
-              <i class="fa fa-image"></i>
-            </a>
-            <a data-exthumbimage="./img/pic2_1.jpg" data-lg-size="1500-1500" class="lightimg" data-src="./img/pic2_1.jpg" data-sub-html="Design">
-              <i class="fa fa-image"></i>
-            </a>
-        </div> -->
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic2.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic3.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic1_1.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic1_1.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic3.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="float:left">
+                            <div class="card blogcard__items mb-2">
+                            <img class="card-img-top"
+                                src="./img/pic2.jpg" alt="">
+                                    <div class="card-body">
+                                <h4><a href="#"> Maecenas maximus augue eget libero dictum.</a></h4>
+                                <p class="card-text">Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                                    <hr>
+                                    <div class="blog__details">
+                                        <ul class="d-flex">
+                                            <li class="post__date color__gradient">28 June 2021</li>
+                                            <li class="post__author">BY JOHNE DOE</li>
+                                            <li class="post-comment">COMMENTS 15</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client -->
+    <section class="client__samar padding__samar">
+        <div class="container">
+            <div class="client-slick">
+                <div><h3>1</h3></div>
+                <div><h3>2</h3></div>
+                <div><h3>3</h3></div>
+                <div><h3>4</h3></div>
+                <div><h3>5</h3></div>
+                <div><h3>6</h3></div>
+                <div><h3>7</h3></div>
+                <div><h3>8</h3></div>
+              </div>
+        </div>
     </section>
 
 
@@ -554,10 +684,12 @@
 
 
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<!-- JQUERY 3.6 & BOOTSTRAP-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<!-- JQUERY 3.6 -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js"></script>
+<!-- JQUERY 3.6 & BOOTSTRAP-->
+
+<!-- LIGHT GALLERY -->
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/thumbnail/lg-thumbnail.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/zoom/lg-zoom.umd.js"></script>
@@ -565,8 +697,23 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/autoplay/lg-autoplay.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/share/lg-share.min.js"></script>
 
-
+<!-- SLICK CAROUSEL -->
+ <!-- SLICK -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+ integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script>
+            $('.client-slick').slick({
+                // option
+                infinite: true,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                arrows:false,
+                autoplay: true,
+                // autoplaySpeed: 600
+            });
+            </script>
 <script src="./javascript/main.js"></script>
-    
+   
 </body>
 </html>
