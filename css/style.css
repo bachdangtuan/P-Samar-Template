@@ -12,18 +12,27 @@ body,html{
     overflow-x: hidden;
     
 }
-h6{
-    font-weight: 700;
-    font-size: 22px;
-    color: #e83e8c;
-}
+/* FONT */
 h2, h1{
     font-size: 59px;
+    font-weight: 800;
+}
+h3 {
     font-weight: 800;
 }
 h4{
     font-size: 26px;
     font-weight: 800;
+}
+h5 {
+    color: #f8ae56;
+    font-size: 59px;
+    font-weight: 800;
+}
+h6{
+    font-weight: 700;
+    font-size: 22px;
+    color: #e83e8c;
 }
 .font-title{
     font-size: 26px;
@@ -37,6 +46,11 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+small {
+    font-size: 30%;
+    font-weight: 600;
+    color: black;
 }
 ul{
     padding: 0;
@@ -371,6 +385,56 @@ ul li {
     color: #000;
     background-color: #ffffff;
 }
+.card-body{
+    padding: 0;
+}
+.card{
+    padding: 30px 60px;
+    border: none;
+}
+.plan__samar__card .plan__samar__img{
+    width: 125px;
+    margin: auto;
+}
+.plan__samar__card__details{
+    border: 3px solid transparent;
+    border-radius: 8px !important;
+    border-image: none;
+    overflow: hidden;
+    transition: all 0.5s;
+    border-image: 100 round;
+    box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+}
+
+/* Liner-gradient for border */
+.plan__samar__card__details:hover{
+    border-image: url(../img/br.png) 1 round;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Blog CSS */
+.blog__samar{
+    background-image: url(images/background/bg16.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
 
 
 
