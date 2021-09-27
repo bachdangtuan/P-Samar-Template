@@ -43,7 +43,7 @@ lightGallery(document.getElementById("pic1_2-thumbnails"), {
 // BACK TO TOP
 $(document).ready(function(){
 	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
+			if ($(this).scrollTop() > 1000) {
 				$('#back-to-top').fadeIn();
 			} else {
 				$('#back-to-top').fadeOut();
