@@ -11,6 +11,7 @@ body,html{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* background: black; */
     
 }
 /* FONT */
@@ -250,16 +251,14 @@ ul li {
     align-items: center;
     transition: all 0.8s;
 }
+/* Tạo hiệu ứng cho hover gradient có 1 lớp phủ màu đằng sau */
 .features__samar__infor::after{
     content: "";
     position: absolute;
-    background: rgba(240, 113, 183,0.5);
+    background: rgba(26, 5, 143, 0.5);
     border-radius: 10px;
     width: 100%;
     height: 150px;
-    /* -webkit-transition: all 1s;
-    -ms-transition: all 1s;
-    transition: all 1s; */
     z-index: -1;
 }
 .features__samar__infor:hover{
