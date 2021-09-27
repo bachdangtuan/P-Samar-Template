@@ -1,9 +1,9 @@
 /* CSS Global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Font Awesome 5 Free' ,sans-serif;
 }
 
 body,html{
@@ -14,6 +14,7 @@ body,html{
     
 }
 /* FONT */
+
 h2, h1{
     font-size: 59px;
     font-weight: 800;
@@ -580,6 +581,10 @@ ul li {
 .widget_getintuch ul li{
     padding: 8px 0;
 }
+.widget_getintuch ul li span, .widget_services ul li a{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
 .widget_services h5{
     font-size: 24px;
     color: white;
@@ -599,7 +604,8 @@ ul li {
 }
 .widget_services ul li a::before{
     content: "\f105";
-    font-family:'Font Awesome';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     position: absolute;
     display: block;
     left: 14px;
