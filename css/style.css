@@ -650,16 +650,15 @@ footer .footer-logo {
     bottom: 25px;
     right: 25px;
     display: none;
-    background: #f55f8d;
     color: white;
     box-shadow: none;
-    border: 2px solid rgba(232, 62, 140,.4);
+    border: 1px solid rgba(232, 62, 140,.1);
     
 }
 #back-to-top:hover{
     background: white;
     color: #f55f8d;
-    border: 2px solid #f55f8d;
+    border: 1px solid #f55f8d;
 }
 
 /* Chuyển Động Ảnh nền */
