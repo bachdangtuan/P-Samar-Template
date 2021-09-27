@@ -501,7 +501,7 @@ ul li {
 }
 .client__logo:hover{
     background: linear-gradient(to right, #f55f8d 0%, #f8ae56  100%);
-    box-shadow: 0px 0px 5px 5px rgba(241, 81, 228,0.78);
+    box-shadow: 0px 0px 10px 1px rgba(241, 81, 228,0.78);
 }
 .client__logo:hover > .logo1{
     display: none;
