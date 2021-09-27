@@ -644,9 +644,23 @@ footer .footer-logo {
 .dlab-social-icon li a:hover{
     background: linear-gradient(to right, #f55f8d 0%, #f8ae56  100%);
 }
-
-
-
+/* BACK TO TOP */
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #f55f8d;
+    color: white;
+    box-shadow: none;
+    border: 2px solid rgba(232, 62, 140,.4);
+    
+}
+#back-to-top:hover{
+    background: white;
+    color: #f55f8d;
+    border: 2px solid #f55f8d;
+}
 
 /* Chuyển Động Ảnh nền */
 @-webkit-keyframes move2 {
