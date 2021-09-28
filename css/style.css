@@ -499,6 +499,8 @@ ul li {
     transform: translate(0px, 20px);
     transition: all 1s;
 }
+.slick-track{
+}
 
 
 
