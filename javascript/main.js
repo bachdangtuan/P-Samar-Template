@@ -57,3 +57,19 @@ $(document).ready(function(){
 			return false;
 		});
 });
+
+// SWIPER
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  // fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 1,
+  slidesToScroll: 5,
+  asNavFor: '.slider-for',
+  centerMode: true,
+  focusOnSelect: true
+});
