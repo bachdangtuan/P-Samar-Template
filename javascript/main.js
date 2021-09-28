@@ -64,12 +64,12 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   dots: true,
   // fade: true,
-  speed: 4000,
+  speed: 3000,
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   asNavFor: '.slider-for',
   centerMode: true,
   speed: 3000,
