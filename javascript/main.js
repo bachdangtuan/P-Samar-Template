@@ -64,7 +64,7 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   dots: true,
   // fade: true,
-  speed: 4000,
+  speed: 3000,
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
